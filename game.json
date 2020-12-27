@@ -1,0 +1,344 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": true,
+    "orientation": "portrait",
+    "packageName": "com.wichi.colorSplash",
+    "projectUuid": "cf2bddd6-305f-419c-978e-2d702c843ac1",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "",
+    "useDeprecatedZeroAsDefaultZOrder": true,
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Color Splash",
+    "author": "Wilfredo Chipana",
+    "windowWidth": 800,
+    "windowHeight": 800,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 30,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "showGDevelopSplash": true
+    },
+    "extensionProperties": [],
+    "extensions": [
+      {
+        "name": "BuiltinObject"
+      },
+      {
+        "name": "BuiltinAudio"
+      },
+      {
+        "name": "BuiltinVariables"
+      },
+      {
+        "name": "BuiltinTime"
+      },
+      {
+        "name": "BuiltinMouse"
+      },
+      {
+        "name": "BuiltinKeyboard"
+      },
+      {
+        "name": "BuiltinJoystick"
+      },
+      {
+        "name": "BuiltinCamera"
+      },
+      {
+        "name": "BuiltinWindow"
+      },
+      {
+        "name": "BuiltinFile"
+      },
+      {
+        "name": "BuiltinNetwork"
+      },
+      {
+        "name": "BuiltinScene"
+      },
+      {
+        "name": "BuiltinAdvanced"
+      },
+      {
+        "name": "Sprite"
+      },
+      {
+        "name": "BuiltinCommonInstructions"
+      },
+      {
+        "name": "BuiltinCommonConversions"
+      },
+      {
+        "name": "BuiltinStringInstructions"
+      },
+      {
+        "name": "BuiltinMathematicalTools"
+      },
+      {
+        "name": "BuiltinExternalLayouts"
+      }
+    ],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "bg_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bg_0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "spr_player_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "spr_player_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "spr_player_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "spr_bloque2_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_bloque2_0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bg_Score.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bg_Score.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spr_bullet_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_bullet_0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spr_colorWhite_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_colorWhite_0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spr_splashWhite_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_splashWhite_0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spr_colorBlack_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_colorBlack_0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spr_colorBlue_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_colorBlue_0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spr_colorYellow_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_colorYellow_0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spr_colorRed_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_colorRed_0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spr_splashBlack_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_splashBlack_0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spr_splashYellow_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_splashYellow_0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spr_splashRed_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_splashRed_0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spr_splashBlue_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_splashBlue_0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spr_iconoBlue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_iconoBlue.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spr_iconoRed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_iconoRed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spr_iconoYellow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_iconoYellow.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spr_iconoBlack.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_iconoBlack.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spr_iconoWhite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spr_iconoWhite.png",
+        "smoothed": true,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "SCORE",
+      "value": "0"
+    },
+    {
+      "name": "colorBubble",
+      "value": "0"
+    },
+    {
+      "name": "scoreBlue",
+      "value": "0"
+    },
+    {
+      "name": "scoreRed",
+      "value": "0"
+    },
+    {
+      "name": "scoreYellow",
+      "value": "0"
+    },
+    {
+      "name": "scoreBlack",
+      "value": "0"
+    },
+    {
+      "name": "scoreWhite",
+      "value": "0"
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/game"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
